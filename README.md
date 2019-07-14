@@ -4,8 +4,8 @@ Detection of Pills from images and video. Below you can see the sample detected 
 ![](./images/sample-detection.jpg)
 
 ##### Labeling Images 
-[Click here for labeled dataset](https://drive.google.com/open?id=1D6W5ZTk6ZlGPZRj8uF3w2o_6tz3WmK6u) 
-[Open Labeling Tool](https://github.com/Cartucho/OpenLabeling) is used.
+Images are labeled by [Open Labeling Tool](https://github.com/Cartucho/OpenLabeling).<br>
+[Click here for labeled dataset](https://drive.google.com/open?id=1D6W5ZTk6ZlGPZRj8uF3w2o_6tz3WmK6u)
 
 ##### Splitting Dataset 
 Here is the python [script](https://github.com/yavuzKomecoglu/darknet/blob/master/scripts/process.py) that splits 90% training and 10% test data. You will have train.txt and test.txt files. Each file has image paths.
