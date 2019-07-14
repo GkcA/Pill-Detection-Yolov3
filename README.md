@@ -1,10 +1,10 @@
 ##### Purpose of Project
 
-Detection of Pills from images and video.
-
-[Click here for labeled dataset](https://drive.google.com/open?id=1D6W5ZTk6ZlGPZRj8uF3w2o_6tz3WmK6u) 
+Detection of Pills from images and video. Below you can see the sample detected image.
+![](./images/sample-detection.jpg)
 
 ##### Labeling Images 
+[Click here for labeled dataset](https://drive.google.com/open?id=1D6W5ZTk6ZlGPZRj8uF3w2o_6tz3WmK6u) 
 [Open Labeling Tool](https://github.com/Cartucho/OpenLabeling) is used.
 
 ##### Splitting Dataset 
@@ -25,7 +25,7 @@ $$
 
 You need to create a folder shown in that [image](http://blog.ibanyez.info/download/B20190410T000000072.png). 
 
-[Click here for my Google Drive folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP)
+[Click here for my Google Drive folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP).
 
 ## References
 
