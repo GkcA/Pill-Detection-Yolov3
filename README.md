@@ -16,9 +16,16 @@ Here is the python [script](https://github.com/yavuzKomecoglu/darknet/blob/maste
 * yolov3.cfg (editing number of classes and filters)
 
 Since we have 1 class (Pill (turkish meaning: ilac)) our filter must be 18 according to formula.
-$$
-Filters = (number\ of\ classes + 5) * 3
-$$
+
+
+
+<p align="center">
+    <img width=50% height= 50% src="./images/formula.png">
+    <br>
+</p>
+
+
+
 ![](./images/files.jpeg)
 
 ##### Creating Google Drive Folder
@@ -27,7 +34,7 @@ You need to create a folder shown in that [image](http://blog.ibanyez.info/downl
 
 [Click here for my Google Drive folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP).
 
-## References
+### References
 
 * [How to train YOLOv3 using Darknet on Colab 12GB-RAM GPU notebook and speed up load times](http://blog.ibanyez.info/blogs/coding/20190410-run-a-google-colab-notebook-to-train-yolov3-using-darknet-in/)
 * [YOLOv2 ile Kendi Özel Kişi ya da Nesnemizin Algılanmasını Nasıl Sağlarız? — Bölüm 2](https://medium.com/yavuzkomecoglu/yolov2-ile-kendi-%C3%B6zel-ki%C5%9Fi-yada-nesnemizin-alg%C4%B1lanmas%C4%B1n%C4%B1-nas%C4%B1l-sa%C4%9Flar%C4%B1z-b%C3%B6l%C3%BCm-2-c717f5231e46)
