@@ -23,7 +23,7 @@ $$
 
 ##### Creating Google Drive Folder
 
-You need to create a folder shown in that [image](http://blog.ibanyez.info/download/B20190410T000000072.png) 
+You need to create a folder shown in that [image](http://blog.ibanyez.info/download/B20190410T000000072.png). 
 
 [Click here for my Google Drive folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP)
 
