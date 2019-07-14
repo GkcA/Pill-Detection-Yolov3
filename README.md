@@ -1,18 +1,31 @@
 ##### Purpose of Project
 
+Detection of Pills from images and video.
+
+[Click here for labeled dataset](https://drive.google.com/open?id=1D6W5ZTk6ZlGPZRj8uF3w2o_6tz3WmK6u) 
+
 ##### Labeling Images 
 [Open Labeling Tool](https://github.com/Cartucho/OpenLabeling) is used.
 
-##### Spliting Dataset 
+##### Splitting Dataset 
 Here is the python [script](https://github.com/yavuzKomecoglu/darknet/blob/master/scripts/process.py) that splits 90% training and 10% test data. You will have train.txt and test.txt files. Each file has image paths.
 
-##### Creating and Editing neccessary Files
-* obj.data
-* obj.names
-* yolov3.cfg
+##### Creating and Editing necessary Files
+* obj.data (information about number of classes and file paths)
+* obj.names (class names)
+* yolov3.cfg (editing number of classes and filters)
+
+Since we have 1 class (Pill (turkish meaning: ilac)) our filter must be 18 according to formula.
+$$
+Filters = (number\ of\ classes + 5) * 3
+$$
+![](./images/files.jpeg)
 
 ##### Creating Google Drive Folder
-Here is my [folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP)
+
+You need to create a folder shown in that [image](http://blog.ibanyez.info/download/B20190410T000000072.png) 
+
+[Click here for my Google Drive folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIrpM_goP)
 
 ## References
 
@@ -21,4 +34,3 @@ Here is my [folder](https://drive.google.com/open?id=1sCZ6y5W_iXmiyh6Ejzfe0p_BIr
 * [Training YOLOv3 : Deep Learning based Custom Object Detector](https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/)
 * [How to train YOLOv3 to detect custom objects](https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2)
 * [Github Repo](https://github.com/kriyeng/yolo-on-colab-notebook)
-
